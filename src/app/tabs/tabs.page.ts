@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-  @Input() name: string;
+  
 
   constructor() {}
 

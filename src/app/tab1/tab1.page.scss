@@ -1,25 +1,38 @@
-ion-header {
-    display: inline-block;
-    align-content: center;
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .texto{
-    display: inline-block;
-    font-size: 2em;
-    margin-bottom: 0.5%;
+    font-size: 2.5em;
+    margin: 1% 2% 0% 3%;
 }
 
 .title {
-    margin: 1%;
-    display: inline-block;
+    margin: 1% 2% 0% 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.imgAlert {
+    width: 20%;
+    height: 10%;
+    margin-bottom: 5%;
 }
 
 .botao-perigo {
-    min-width: 20%;
-    min-height: 10%;
-    position: absolute;
-    top: 40%;
-    left: 40%;
+    width: 50%;
+    height: 15vh;
 }
 
 .imgIcon {
@@ -27,11 +40,4 @@ ion-header {
     display: inline-block;
     width: 50px;
     height: 50px;
-}
-.imgAlert {
-    width: 15%;
-    height: 15%;
-    position: absolute;
-    top: 20%;
-    left: 42%;
 }
